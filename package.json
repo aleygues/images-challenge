@@ -1,0 +1,20 @@
+{
+  "name": "images-challenge",
+  "version": "1.0.0",
+  "repository": "git@github.com:aleygues/images-challenge.git",
+  "author": "Aurélien Leygues <aurelien.leygues@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "jimp": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
