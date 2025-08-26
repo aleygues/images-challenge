@@ -8,7 +8,7 @@
  * @returns an array of 8 bits
  */
 
-export default function (byte: number): (1 | 0)[] {
+export default function byteTo8BitsArray(byte: number): (1 | 0)[] {
   const bits: (1 | 0)[] = [];
   return bits;
 }

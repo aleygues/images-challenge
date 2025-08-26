@@ -11,7 +11,7 @@
  * @returns an array of bytes
  */
 
-export default function (bits: (1 | 0)[]): number[] {
+export default function bitsToBytes(bits: (1 | 0)[]): number[] {
   const bytes: number[] = [];
   return bytes;
 }

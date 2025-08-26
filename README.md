@@ -28,9 +28,9 @@ Challenges of a part may be solved in any order
 
 Once all challenges of a part are solved, I'll submit you a final challenge to validate the part!
 
-## Work a challenge
+## Work an ALGO challenge
 
-To work a challenge, you must:
+To work an algo challenge, you must:
 
 - find the challenge you want to work on in the `challenges` folder, for instance `challenges/part-1_easy-1`
 - copy the `answer.sample.ts` file and rename it `answer.ts`, this will code in this file
@@ -41,6 +41,22 @@ From this point, you have a terminal running tests against your code (in `answer
 You can of course create custom functions in your `answer.ts` file if needed
 
 Once your tests pass, you can try solving another challenge by stopping the testing tool and rerunning this README section
+
+**Optionnally**: if you pushed to your own repo, do not forget to update the `.gitignore` file from the root to comment/remove the `*/**/answer.ts` line, otherwise your answers won't be pushed!
+
+## Work an FINAL challenge
+
+To work a final challenge, you must:
+
+- find the final challenge you want to work on in the `challenges` folder, for instance `challenges/part-1_final`
+- copy the `answer.sample.ts` file and rename it `answer.ts`, this will code in this file
+- lauch the livereloading tool with `yarn start {PATH_TO_CHALLENGE}/answer.ts`, for instance `yarn start challenges/part-1_final/answer.ts` (**warning** this commande must be ran from the root folder), you can substitute `yarn` for `npm` I guess
+
+From this point, you have a terminal running your code in a livereloading env (in `answer.ts`), you may start to work! Just write your code in the `answer.ts` file, do not forget to execute your functions, and save the file, the result should appear in the terminal. You **SHOULD NOT** use any import, except the other functions from the challenges.
+
+You can of course create custom functions in your `answer.ts` file if needed
+
+Once you got the result you need, you should send it for validation (though Slack)
 
 **Optionnally**: if you pushed to your own repo, do not forget to update the `.gitignore` file from the root to comment/remove the `*/**/answer.ts` line, otherwise your answers won't be pushed!
 

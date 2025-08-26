@@ -7,6 +7,6 @@
  * @returns a string computed from the bytes array, using UTF8
  */
 
-export default function (bytes: number[]): string {
+export default function bytesToString(bytes: number[]): string {
   return "";
 }

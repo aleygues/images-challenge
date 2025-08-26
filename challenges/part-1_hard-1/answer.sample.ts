@@ -14,7 +14,7 @@
  * @returns promise resolved with an array of number, representing colors of pixels of the image
  */
 
-export default async function (path: string): Promise<number[]> {
+export default async function readImage(path: string): Promise<number[]> {
   const bytes: number[] = [];
   return bytes;
 }

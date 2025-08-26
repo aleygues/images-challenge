@@ -10,7 +10,7 @@
  * @returns an array of extracted bits
  */
 
-export default function (
+export default function extractLastBitsFrom8BitsArrays(
   bitsArrays: (1 | 0)[][],
   extractCount: number
 ): (1 | 0)[] {
